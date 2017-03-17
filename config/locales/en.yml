@@ -1,23 +1,51 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  static_pages:
+    home:
+      title: "Welcome to the Sample App"
+      info_1: "This is the home page for the"
+      info_2: "Ruby on Rails Tutorial"
+      info_3: "sample application."
+      sign_up: "Sign up now!"
+      logo: "Rails logo"
+    help:
+      title: "Help" 
+      info_1: "Get help on the Ruby on Rails Tutorial at the"
+      info_2: "Rails Tutorial help page"
+      info_3: "To get help on this sample app, see the"
+      info_4: "Ruby on Rails Tutorial"
+      info_5: "book"
+    about:
+      title: "About"
+      info_1: "The"
+      info_2: "Ruby on Rails Tutorial"
+      info_3: "is a"
+      info_4: "book"
+      info_5: "and"
+      info_6: "screencast series"
+      info_7: "to teach web development with"
+      info_8: "Ruby on Rails"
+      info_9: "This is the sample application for the tutorial."
+    contact:
+      title: "Contact"
+      info_1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      info_2: "contact page"
+  layouts:
+    application:
+      base_title: "Ruby on Rails Tutorial"
+    footer:
+      info_1: "The"
+      info_2: "Ruby on Rails Tutorial"
+      info_3: "by"
+      info_4: "Michael Hartl"
+      info_5: "About"
+      info_6: "Contact"
+      info_7: "News"
+    header:
+      link_1: "sample app"
+      link_2: "Home"
+      link_3: "Help"
+      link_4: "Log in"
+  users:
+    new:
+      title: "Sign up"
+      content: "This will be a signup page for new users."  
