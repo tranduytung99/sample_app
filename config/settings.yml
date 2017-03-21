@@ -1,0 +1,5 @@
+size: 80
+user_valide:
+  name: 50
+  email: 50
+  pass: 6
