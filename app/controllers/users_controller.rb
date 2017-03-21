@@ -8,12 +8,15 @@ class UsersController < ApplicationController
     @users = User.paginate page: params[:page], per_page: Settings.per_page
   end
 
+
   def show
   end
+
 
   def new
     @user = User.new
   end
+
 
   def edit
   end
@@ -59,6 +62,7 @@ class UsersController < ApplicationController
     unless @user
       flash[:warning] = t ".just_sign"
       redirect_to root_url
+
     end
   end
 
@@ -83,5 +87,4 @@ class UsersController < ApplicationController
       redirect_to root_url
     end
   end
-
 end
