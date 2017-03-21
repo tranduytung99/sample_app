@@ -1,0 +1,19 @@
+<% provide :title, t(".title")  %>
+<h1> <%= t ".title" %> </h1>
+
+<%= will_paginate %>
+
+<ul class="users">
+  <% @users.each do |user| %>
+    <li>
+      <%= gravatar_for user, size: Settings.size %>
+      <%= link_to user.name, user %>
+      <% if current_user.admin? && !current_user?(user) %>
+        | <%= link_to t(".delete"), user, method: :delete,
+          data: {confirm: t(".sure")} %>
+      <% end %>
+    </li>
+  <% end %>
+</ul>
+
+<%= will_paginate %>
