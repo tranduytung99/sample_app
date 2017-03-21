@@ -8,7 +8,7 @@ en:
       sign_up: "Sign up now!"
       logo: "Rails logo"
     help:
-      title: "Help" 
+      title: "Help"
       info_1: "Get help on the Ruby on Rails Tutorial at the"
       info_2: "Rails Tutorial help page"
       info_3: "To get help on this sample app, see the"
@@ -45,7 +45,30 @@ en:
       link_2: "Home"
       link_3: "Help"
       link_4: "Log in"
+      user: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
+      log_in: "Log in"
   users:
     new:
       title: "Sign up"
-      content: "This will be a signup page for new users."  
+      content: "This will be a signup page for new users."
+      create_user: "Create my account"
+    show:
+       just_sign: "Just sign up"
+    create:
+       welcome: "Welcome to the Sample App!"
+  shared:
+    error_messages:
+       error: "The form contains"
+       error_title: "error"
+  sessions:
+    create:
+      succes: "Welcome to the Sample App!"
+      fails: "Invalid email/password combination"
+    new:
+      title: "Log in"
+      sign_up: "Sign up now!"
+      new_user: "New user?"
