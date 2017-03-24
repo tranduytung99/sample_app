@@ -5,18 +5,16 @@ class UsersController < ApplicationController
   before_action :correct_user, only: [:edit, :update]
 
   def index
-    @users = User.paginate page: params[:page], per_page: Settings.per_page
+    @users = User.select(:id ,:name ,:email).where(activated: true)
+      .paginate page: params[:page], per_page: Settings.per_page
   end
-
 
   def show
   end
 
-
   def new
     @user = User.new
   end
-
 
   def edit
   end
@@ -24,7 +22,8 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      flash[:success] = t ".welcome"
+      @user.send_activation_email
+      flash[:info] = t ".check_email"
       redirect_to @user
     else
       render :new
@@ -62,7 +61,6 @@ class UsersController < ApplicationController
     unless @user
       flash[:warning] = t ".just_sign"
       redirect_to root_url
-
     end
   end
 
