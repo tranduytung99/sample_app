@@ -41,10 +41,10 @@ en:
       info_6: "Contact"
       info_7: "News"
     header:
-      link_1: "sample app"
-      link_2: "Home"
-      link_3: "Help"
-      link_4: "Log in"
+      sample: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
       user: "Users"
       account: "Account"
       profile: "Profile"
@@ -57,13 +57,35 @@ en:
       content: "This will be a signup page for new users."
       create_user: "Create my account"
     show:
-       just_sign: "Just sign up"
+      just_sign: "Just sign up"
     create:
-       welcome: "Welcome to the Sample App!"
+      welcome: "Welcome to the Sample App!"
+    edit:
+      title: "Edit user"
+      name: "Update your profile"
+      save: "Save changes"
+      change: "change"
+      login: "Please log in."
+    update:
+      success: "Success"
+      fails: "Fails"
+    logged_in_user:
+      login: "Please log in."
+    index:
+      title: "All users"
+      delete: "delete"
+      sure: "You sure?"
+    destroy:
+      delete: "User deleted"
+      fail: "Delete fail"
+    correct_user:
+      info: "wrong user"
+    admin_user:
+      notadmin : "wrong admin"
   shared:
     error_messages:
-       error: "The form contains"
-       error_title: "error"
+      error: "The form contains"
+      error_title: "error"
   sessions:
     create:
       succes: "Welcome to the Sample App!"
@@ -72,3 +94,4 @@ en:
       title: "Log in"
       sign_up: "Sign up now!"
       new_user: "New user?"
+      remember: "Remember me on this computer"
