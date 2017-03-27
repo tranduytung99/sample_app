@@ -1,4 +1,11 @@
 en:
+  mailers:
+    user_mailer:
+      account: "Accout activation"
+  account_activations:
+    edit:
+      active: "Account activated!"
+      check: "Invalid activation link"
   static_pages:
     home:
       title: "Welcome to the Sample App"
@@ -59,7 +66,7 @@ en:
     show:
       just_sign: "Just sign up"
     create:
-      welcome: "Welcome to the Sample App!"
+      check_email: "Please check your email to activate your account."
     edit:
       title: "Edit user"
       name: "Update your profile"
@@ -90,6 +97,7 @@ en:
     create:
       succes: "Welcome to the Sample App!"
       fails: "Invalid email/password combination"
+      check: "Check your email for the activation link."
     new:
       title: "Log in"
       sign_up: "Sign up now!"
