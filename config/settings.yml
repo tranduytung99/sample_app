@@ -4,3 +4,4 @@ user_valide:
   email: 50
   pass: 6
 per_page: 5
+hour: 2
