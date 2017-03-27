@@ -61,7 +61,8 @@ class User < ApplicationRecord
 
   def create_reset_digest
     self.reset_token = User.new_token
-    update(reset_digest: User.digest(reset_token), reset_sent_at: Time.zone.now )
+    update_attributes reset_digest: User.digest(reset_token)
+    update_attributes reset_sent_at: Time.zone.now
   end
 
   def send_password_reset_email

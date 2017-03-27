@@ -11,7 +11,7 @@ en:
       title: "Sample App"
       hi: "Hi"
       welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
-      active : "Activate"   
+      active : "Activate" 
   password_resets:
     create:
       info: "Email sent with password reset instructions"
