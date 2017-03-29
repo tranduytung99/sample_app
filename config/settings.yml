@@ -5,3 +5,5 @@ user_valide:
   pass: 6
 per_page: 5
 hour: 2
+max_leght: 140
+megabyte: 10
