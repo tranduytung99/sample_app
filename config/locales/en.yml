@@ -1,4 +1,25 @@
 en:
+  application:
+    logger_in_used:
+      login: "Please login"
+  shared:
+    micropost_form:
+      content: "Compose new micropost..."
+      post: "Post"
+    user_info:
+      view: "view my profile"
+  microposts:
+    micropost:
+      ago: "ago."
+      delete: "Delete"
+  models:
+    micropost:
+      max: "max 10"
+  microposts:
+    create:
+      success: "Micropost created!"
+    destroy:
+      delete: "Deleted"  
   user_mailer:
     password_reset:
       reset: "Password reset"
@@ -11,7 +32,7 @@ en:
       title: "Sample App"
       hi: "Hi"
       welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
-      active : "Activate"   
+      active : "Activate" 
   password_resets:
     create:
       info: "Email sent with password reset instructions"
@@ -42,6 +63,7 @@ en:
       info_3: "sample application."
       sign_up: "Sign up now!"
       logo: "Rails logo"
+      content: "Micropost Feed"
     help:
       title: "Help"
       info_1: "Get help on the Ruby on Rails Tutorial at the"
@@ -93,6 +115,7 @@ en:
       create_user: "Create my account"
     show:
       just_sign: "Just sign up"
+      micro: "Microposts"
     create:
       check_email: "Please check your email to activate your account."
     edit:
