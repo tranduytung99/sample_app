@@ -8,6 +8,9 @@ en:
       post: "Post"
     user_info:
       view: "view my profile"
+    stats:
+      follow: "following"
+      follows: "followers"  
   microposts:
     micropost:
       ago: "ago."
@@ -109,6 +112,10 @@ en:
       log_out: "Log out"
       log_in: "Log in"
   users:
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfo: "Unfollow"
     new:
       title: "Sign up"
       content: "This will be a signup page for new users."
@@ -140,6 +147,8 @@ en:
       info: "wrong user"
     admin_user:
       notadmin : "wrong admin"
+    following:
+      title: "Following"  
   shared:
     error_messages:
       error: "The form contains"
